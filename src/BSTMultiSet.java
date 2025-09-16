@@ -11,7 +11,7 @@ public class BSTMultiSet extends MultiSet {
      */
     @Override
     void add(int item) {
-        this.bst.insert(item);
+        
     }
 
     /**
