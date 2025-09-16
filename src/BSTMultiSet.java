@@ -11,6 +11,7 @@ public class BSTMultiSet extends MultiSet {
      */
     @Override
     void add(int item) {
+        this.bst.insert(item);
     }
 
     /**
@@ -21,6 +22,7 @@ public class BSTMultiSet extends MultiSet {
      */
     @Override
     void remove(int item) {
+        this.bst.delete(item);
     }
 
     /**
